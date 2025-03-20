@@ -67,4 +67,11 @@
         - api rest
     - Multipart upload 
         (para OBJETOS que tem o tamanho maior que 5 tb)
+    - AWS Transfer family
+    
+    - Object storage classes (Preço e disponibilidade)
+        - Classes quentes (acesso imediato) | Preço de armazenamento maior e altamente disponível
+            - S3 Standard (padrão, melhor disp, menor preço)
+        - Classes frias
+
 
