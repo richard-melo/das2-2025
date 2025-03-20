@@ -54,3 +54,17 @@
 - Policy de Identidade
 - Policy de Recurso
 - S3
+
+## Aula 20/03
+- Amazon S3
+    - Static site (site em html, css)
+    - Financial analysis
+    - Disaster recovery
+    - Todos os arquivos são criptografados
+    - Uploads:
+        - web
+        - cli
+        - api rest
+    - Multipart upload 
+        (para OBJETOS que tem o tamanho maior que 5 tb)
+
