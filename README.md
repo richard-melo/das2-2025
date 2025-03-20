@@ -72,6 +72,7 @@
     - Object storage classes (Preço e disponibilidade)
         - Classes quentes (acesso imediato) | Preço de armazenamento maior e altamente disponível
             - S3 Standard (padrão, melhor disp, menor preço)
-        - Classes frias
+        - Classes frias (sem acesso imediato)
+            
 
 
