@@ -74,5 +74,44 @@
             - S3 Standard (padrão, melhor disp, menor preço)
         - Classes frias (sem acesso imediato)
             
+## Aula 24/03
+- S3 - Gerenciamento de ciclo de vida
+- S3 - Versionamento
+- S3 - CORS
 
+```bash
+[
+    {
+        "AllowedHeaders": [
+            "*"
+        ],
+        "AllowedMethods": [
+            "GET",
+            "PUT",
+            "POST",
+            "DELETE"
+        ],
+        "AllowedOrigins": [
+            "http://127.0.0.1:5500"
+        ],
+        "ExposeHeaders": [
+            "x-amz-server-side-encryption",
+            "x-amz-request-id",
+            "x-amz-id-2"
+        ],
+        "MaxAgeSeconds": 3000
+    }
+]
+```
+
+## Aula 27/03
+- Códigos S3
+
+## Aula 31/03
+- Códigos S3
+
+## Aula 03/04
+- Computing (EC2)
+- EBS
+- AMI
 
