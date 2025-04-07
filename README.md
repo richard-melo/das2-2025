@@ -111,7 +111,9 @@
 - Códigos S3
 
 ## Aula 03/04
-- Computing (EC2)
+- Computing (EC2) -> user instace, ligou rodou
 - EBS
 - AMI
 
+## Aula 07/04
+ - 
