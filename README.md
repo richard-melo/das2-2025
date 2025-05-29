@@ -1,7 +1,7 @@
 # Design e Arquitetura de Software 2 Rihard Luiz Melo Neto
 
 ## Aula 24/02
-  - Well-Architect Framework
+- Well-Architect Framework
   - Excelencia operacional
   - Segurança
   - Confiabilidade (Reliabillity)
@@ -10,14 +10,13 @@
   - Sustentabilidade
 
 ## Aula 27/02/2025
-
 ### Design trade-offs
-
 - Consistencia (Informação foi mandada para o banco e existe a garantia que ela fique lá)
 - Durabilidade 
 - Space (Terceira forma normal - BD)
 - Melhorar a disponibilidade de uma aplicação = custo maior
-- Tratar recursos com
+- Tratar recursos como descartáveis [// adicionado para complementar o conceito de infraestrutura imutável]
+- Escalabilidade/Elasticidade [// importante para arquiteturas cloud]
 
 ## Aula 06/03
 - Trade-Offs
@@ -35,7 +34,7 @@
 - Infraestrutura global da AWS
   - POPs - Edge Location
 - Segurança
-  - Modelo de responsabilidade compartilhado
+  - Modelo de responsabilidade compartilhada
   - Autenticação
   - Autorização
   - Princípio do privilégio mínimo
@@ -68,12 +67,11 @@
     - Multipart upload 
         (para OBJETOS que tem o tamanho maior que 5 tb)
     - AWS Transfer family
-    
     - Object storage classes (Preço e disponibilidade)
         - Classes quentes (acesso imediato) | Preço de armazenamento maior e altamente disponível
             - S3 Standard (padrão, melhor disp, menor preço)
-        - Classes frias (sem acesso imediato)
-            
+        - Classes frias (sem acesso imediato) [// S3 Glacier para arquivamento de longo prazo]
+
 ## Aula 24/03
 - S3 - Gerenciamento de ciclo de vida
 - S3 - Versionamento
@@ -102,18 +100,3 @@
         "MaxAgeSeconds": 3000
     }
 ]
-```
-
-## Aula 27/03
-- Códigos S3
-
-## Aula 31/03
-- Códigos S3
-
-## Aula 03/04
-- Computing (EC2) -> user instace, ligou rodou
-- EBS
-- AMI
-
-## Aula 07/04
- - 
