@@ -100,3 +100,85 @@
         "MaxAgeSeconds": 3000
     }
 ]
+## Aula 27/03
+- Códigos S3  
+  // Prática com comandos para manipulação de buckets e objetos no Amazon S3  
+  - Criar buckets  
+  - Fazer upload e download de arquivos  
+  - Aplicar políticas de acesso  
+  - Testar permissões com diferentes usuários e roles  
+  - Utilização de versionamento e lifecycle rules via código
+
+## Aula 31/03
+- Códigos S3  
+  // Continuação da prática com Amazon S3 utilizando AWS CLI ou SDK  
+  - Configuração de CORS via linha de comando  
+  - Upload de arquivos grandes com multipart upload  
+  - Simulação de cenários de backup, restore e recuperação de desastres  
+  - Uso de diferentes classes de armazenamento (Standard, Glacier, etc.)
+
+## Aula 03/04
+- Computing (EC2)  // serviço de máquinas virtuais escaláveis da AWS  
+- EBS (Elastic Block Store)  // volumes de armazenamento persistente para EC2  
+- AMI (Amazon Machine Image)  // imagens usadas para inicializar instâncias EC2
+
+## Aula 07/04
+- Placement  
+  - Cluster  // instâncias próximas fisicamente para baixa latência e alta performance  
+  - Spread  // instâncias distribuídas para alta disponibilidade  
+  - Partition  // separação lógica em grupos para isolamento de falhas  
+- EC2 Purchase model  
+  - On-demand  // paga conforme o uso, ideal para cargas variáveis  
+  - Reserved  // instâncias reservadas com desconto, para uso constante  
+  - Savings plans  // plano de compromisso com uso, com desconto flexível  
+  - Spot  // uso de capacidade ociosa com grande desconto, porém sem garantia de execução contínua
+
+## Aula 10/04
+- RDS (Relational Database Service)  // banco de dados gerenciado pela AWS  
+- Bancos de dados relacionais  
+  // organizados por tabelas, colunas e relações (ex: MySQL, PostgreSQL, Oracle)  
+- Bancos de dados não relacionais  
+  // estrutura flexível e escalável, ideal para dados sem esquema fixo (ex: DynamoDB, MongoDB)
+
+# Segundo Bimestre
+
+## Aula 05/05
+- VPC (Virtual Private Cloud)  // rede virtual isolada na AWS  
+- CIDR (Classless Inter-Domain Routing)  
+  // definição de intervalo de IPs usados pela VPC  
+- Subnet Pública  
+  // permite acesso direto à internet, ideal para servidores web
+
+## Aula 12/05
+- Fazer os laboratórios [Canvas](https://awsacademy.instructure.com/courses/113113)  
+- Guided lab: Creating a Virtual Private Cloud  
+  // prática guiada na criação de VPCs com subnets, rotas e gateways  
+- Challenge (Café) lab: Creating a VPC Networking Environment for the Café  
+  // simulação de ambiente de rede real usando recursos como NAT, IGW e ACLs
+
+## Aula 15/05
+- Continuação dos laboratórios [Canvas](https://awsacademy.instructure.com/courses/113113)  
+  // reforço prático de conceitos aprendidos sobre VPC  
+- Guided lab: Creating a Virtual Private Cloud  
+- Challenge (Café) lab: Creating a VPC Networking Environment for the Café
+
+## Aula 19/05
+- VPC Peering  
+  // conectar duas VPCs diferentes para comunicação privada entre elas  
+- AWS VPN Site-to-Site  
+  // conexão segura entre redes locais e a nuvem AWS via VPN  
+- AWS Direct Connect  
+  // conexão física dedicada entre o data center e a AWS, com alta velocidade e baixa latência
+
+## Aula 26/05
+- IAM Groups  // grupos para facilitar a aplicação de políticas a múltiplos usuários  
+- Roles (funções) e AWS STS (Security Token Service)  
+  // funções temporárias com permissões específicas para acessar recursos  
+- AWS Cognito  
+  // serviço para autenticação e gerenciamento de usuários em aplicações web e mobile
+
+## Aula 29/05
+- Criptografia simétrica  
+  // mesma chave é usada para criptografar e descriptografar os dados  
+- Criptografia assimétrica  
+  // usa um par de chaves (pública e privada), mais segura para comunicação entre partes diferentes
