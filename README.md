@@ -101,84 +101,72 @@
     }
 ]
 ## Aula 27/03
-- Códigos S3  
-  // Prática com comandos para manipulação de buckets e objetos no Amazon S3  
-  - Criar buckets  
-  - Fazer upload e download de arquivos  
-  - Aplicar políticas de acesso  
-  - Testar permissões com diferentes usuários e roles  
-  - Utilização de versionamento e lifecycle rules via código
+- Amazon S3 (códigos práticos)
+    - Criação e configuração de buckets via CLI ou SDK
+    - Aplicação de políticas de acesso [// prática de controle de acesso]
+    - Upload e download de arquivos
+    - Versionamento de objetos em código
+    - Testes com diferentes tipos de permissões
 
 ## Aula 31/03
-- Códigos S3  
-  // Continuação da prática com Amazon S3 utilizando AWS CLI ou SDK  
-  - Configuração de CORS via linha de comando  
-  - Upload de arquivos grandes com multipart upload  
-  - Simulação de cenários de backup, restore e recuperação de desastres  
-  - Uso de diferentes classes de armazenamento (Standard, Glacier, etc.)
+- Amazon S3 (continuação dos códigos)
+    - Configuração de CORS via linha de comando
+    - Multipart upload para arquivos grandes
+    - Simulação de cenários com recuperação de desastres
+    - Uso de storage classes [// balancear custo e disponibilidade]
 
 ## Aula 03/04
-- Computing (EC2)  // serviço de máquinas virtuais escaláveis da AWS  
-- EBS (Elastic Block Store)  // volumes de armazenamento persistente para EC2  
-- AMI (Amazon Machine Image)  // imagens usadas para inicializar instâncias EC2
+- Amazon EC2 [// serviço de máquinas virtuais escaláveis]
+- EBS (Elastic Block Store) [// armazenamento persistente conectado às instâncias EC2]
+- AMI (Amazon Machine Image) [// imagens com SO + apps pré-configurados]
 
 ## Aula 07/04
-- Placement  
-  - Cluster  // instâncias próximas fisicamente para baixa latência e alta performance  
-  - Spread  // instâncias distribuídas para alta disponibilidade  
-  - Partition  // separação lógica em grupos para isolamento de falhas  
-- EC2 Purchase model  
-  - On-demand  // paga conforme o uso, ideal para cargas variáveis  
-  - Reserved  // instâncias reservadas com desconto, para uso constante  
-  - Savings plans  // plano de compromisso com uso, com desconto flexível  
-  - Spot  // uso de capacidade ociosa com grande desconto, porém sem garantia de execução contínua
+- Placement strategies:
+    - Cluster [// baixa latência, alta performance]
+    - Spread [// maior disponibilidade e tolerância a falhas]
+    - Partition [// isolamento de falhas em grandes cargas]
+- EC2 Purchase Models:
+    - On-demand [// pago por hora ou segundo, flexível]
+    - Reserved [// reserva com desconto, ideal para cargas previsíveis]
+    - Savings Plans [// compromisso de uso em troca de desconto]
+    - Spot [// uso de instâncias ociosas com grande desconto]
 
 ## Aula 10/04
-- RDS (Relational Database Service)  // banco de dados gerenciado pela AWS  
-- Bancos de dados relacionais  
-  // organizados por tabelas, colunas e relações (ex: MySQL, PostgreSQL, Oracle)  
-- Bancos de dados não relacionais  
-  // estrutura flexível e escalável, ideal para dados sem esquema fixo (ex: DynamoDB, MongoDB)
+- RDS (Relational Database Service) [// serviço gerenciado de banco de dados relacional]
+- Bancos de dados relacionais
+    - MySQL, PostgreSQL, Oracle [// modelo baseado em tabelas]
+- Bancos de dados não relacionais
+    - DynamoDB, MongoDB [// modelo flexível, sem esquema fixo]
 
 # Segundo Bimestre
 
 ## Aula 05/05
-- VPC (Virtual Private Cloud)  // rede virtual isolada na AWS  
-- CIDR (Classless Inter-Domain Routing)  
-  // definição de intervalo de IPs usados pela VPC  
-- Subnet Pública  
-  // permite acesso direto à internet, ideal para servidores web
+- VPC (Virtual Private Cloud) [// rede virtual privada na AWS]
+- CIDR (Classless Inter-Domain Routing) [// define o intervalo de IPs da VPC]
+- Subnet pública [// sub-rede com acesso à internet via IGW]
 
 ## Aula 12/05
-- Fazer os laboratórios [Canvas](https://awsacademy.instructure.com/courses/113113)  
-- Guided lab: Creating a Virtual Private Cloud  
-  // prática guiada na criação de VPCs com subnets, rotas e gateways  
-- Challenge (Café) lab: Creating a VPC Networking Environment for the Café  
-  // simulação de ambiente de rede real usando recursos como NAT, IGW e ACLs
+- Guided Lab: Creating a Virtual Private Cloud
+    - Configuração de VPC, subnets, tabelas de rotas, gateways
+- Challenge Lab: VPC Networking do Café [// simulação de ambiente completo]
+- Laboratórios disponíveis no [Canvas](https://awsacademy.instructure.com/courses/113113)
 
 ## Aula 15/05
-- Continuação dos laboratórios [Canvas](https://awsacademy.instructure.com/courses/113113)  
-  // reforço prático de conceitos aprendidos sobre VPC  
-- Guided lab: Creating a Virtual Private Cloud  
-- Challenge (Café) lab: Creating a VPC Networking Environment for the Café
+- Continuação dos laboratórios de VPC [Canvas]
+    - Reforço na criação e segmentação de rede
+    - Configuração de segurança e conectividade
+    - Desafios com NAT Gateway, ACLs, roteamento
 
 ## Aula 19/05
-- VPC Peering  
-  // conectar duas VPCs diferentes para comunicação privada entre elas  
-- AWS VPN Site-to-Site  
-  // conexão segura entre redes locais e a nuvem AWS via VPN  
-- AWS Direct Connect  
-  // conexão física dedicada entre o data center e a AWS, com alta velocidade e baixa latência
+- VPC Peering [// permite comunicação entre duas VPCs]
+- AWS VPN Site-to-Site [// conexão segura entre rede local e AWS]
+- AWS Direct Connect [// link físico dedicado para alta performance]
 
 ## Aula 26/05
-- IAM Groups  // grupos para facilitar a aplicação de políticas a múltiplos usuários  
-- Roles (funções) e AWS STS (Security Token Service)  
-  // funções temporárias com permissões específicas para acessar recursos  
-- AWS Cognito  
-  // serviço para autenticação e gerenciamento de usuários em aplicações web e mobile
+- IAM Groups [// gerenciamento coletivo de permissões]
+- Roles e AWS STS (Security Token Service) [// autenticação temporária baseada em políticas]
+- AWS Cognito [// autenticação e gerenciamento de usuários para apps web/mobile]
 
 ## Aula 29/05
-- Criptografia simétrica  
-  // mesma chave é usada para criptografar e descriptografar os dados  
-- Criptografia assimétrica  
-  // usa um par de chaves (pública e privada), mais segura para comunicação entre partes diferentes
+- Criptografia Simétrica [// mesma chave para criptografar e descriptografar]
+- Criptografia Assimétrica [// par de chaves pública/privada para segurança e troca segura de dados]
