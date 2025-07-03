@@ -170,3 +170,48 @@
 ## Aula 29/05
 - Criptografia Simétrica [// mesma chave para criptografar e descriptografar]
 - Criptografia Assimétrica [// par de chaves pública/privada para segurança e troca segura de dados]
+
+## Aula 09/06
+# Aula do dia 09/06
+
+Fazer os laboratórios Canvas
+# Realizar os laboratórios disponíveis na plataforma Canvas
+
+Guided lab: Creating a Highly Available Environment
+# Laboratório guiado para criar um ambiente altamente disponível (ex: múltiplas zonas de disponibilidade)
+
+Challenge (Café) lab: Creating a Scalable and Highly Available Environment for the Café
+# Laboratório desafio do projeto Café, criando um ambiente escalável e altamente disponível
+
+## Aula 12/06
+# Aula do dia 12/06
+
+Fazer os laboratórios Canvas
+# Realizar os laboratórios disponíveis na plataforma Canvas
+
+Guided lab: Creating a Highly Available Environment
+# Laboratório guiado para criar um ambiente altamente disponível (provavelmente revisão ou aprofundamento do anterior)
+
+Challenge (Café) lab: Creating a Scalable and Highly Available Environment for the Café
+# Laboratório desafio do projeto Café, criando um ambiente escalável e altamente disponível (continuação ou nova versão)
+
+## Aula 16/06
+# Aula do dia 16/06
+
+Load Balancer
+# Estudo sobre balanceadores de carga (distribuição de tráfego entre instâncias/servidores)
+
+DNS
+# Estudo sobre DNS (Domain Name System) e seu funcionamento na web
+
+## Aula 23/06
+# Aula do dia 23/06
+
+Infraestrutura como código
+# Conceito de Infrastructure as Code (IaC), usando ferramentas como CloudFormation, Terraform, etc.
+
+## Aula 26/06
+# Aula do dia 26/06
+
+Como reduzir acoplamento das aplicações
+# Estudo sobre boas práticas para reduzir acoplamento entre aplicações (ex: APIs, microserviços, filas)
